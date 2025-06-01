@@ -68,14 +68,19 @@ const Works = () => {
     <>
       <Header useMotion={true} {...config.sections.works} />
 
-      <div className="flex w-full">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
-        >
-          {config.sections.works.content}
-        </motion.p>
-      </div>
+<div className="flex w-full">
+  <motion.div
+    variants={fadeIn("", "", 0.1, 1)}
+    className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
+  >
+    {config.sections.works.content?.split("\n").map((line, i) => (
+      <p key={i} className="mb-1">
+        {line}
+      </p>
+    ))}
+  </motion.div>
+</div>
+
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (

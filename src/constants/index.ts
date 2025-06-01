@@ -51,11 +51,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "3D Visuals Developer",
     icon: mobile,
   },
   {
@@ -125,55 +125,55 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Software Engineering Intern",
+    companyName: "Shop Online",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented new product-filtering features in a React + TypeScript frontend and Node.js + Express backend.",
+      "Optimized MySQL queries to reduce page load times by 20% on high-traffic product pages.",
+      "Collaborated with design and QA teams to ship two major sprints on-time, writing unit tests in Jest and integration tests with Cypress.",
+      "Refactored legacy endpoints to use RESTful conventions and introduced caching strategies to improve API performance.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "Research Assistant",
+    companyName: "Utah PLT Lab (University of Utah)",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Fall 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked under Prof. Ben Greenman to design and execute over 100 microbenchmarks targeting Static Python.",
+      "Analyzed profiling data with perf and gprof, identifying function-call optimizations that improved benchmark runtimes by 15%.",
+      "Co-authored an internal report summarizing performance findings and proposed compiler tweaks to reduce overhead.",
+      "Collaborated with graduate students to integrate benchmark harness into the CI pipeline for continuous performance regression testing.",
+    ],
+  },
+  {
+    title: "Hackathon Winner & Participant",
+    companyName: "Various Events",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "2024 - 2025",
+    points: [
+      "Educate! (UN Hackathon 2024): Developed a school-engagement web app using React and Firebase; awarded “Top Web Innovation.”",
+      "Spirit Quest (FBLA Nationals 2024): Built a mobile-friendly school-spirit app in React Native and Firebase; won “Best UI/UX.”",
+      "Wise Wanderer Buildathon (Georgia Tech Hackathon): Prototype travel recommendation features in 24 hours using Django and React.",
+      "Participated in multiple Georgia Tech hackathons, creating Flask + React solutions focused on campus life and social good.",
+    ],
+  },
+  {
+    title: "Undergraduate Projects",
+    companyName: "Personal",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "2023 - Present",
+    points: [
+      "Wise Wanderer (Django, React, PostgreSQL): Built a travel recommendation app integrating flight and weather APIs, deployed on Heroku.",
+      "Twitch Clip Automation Tool (Python, ffmpeg): Automated daily scraping of top Twitch clips, batch-processed videos, and overlaid on-screen titles.",
+      "Fake News Detector Chrome Extension (Flask, React, scikit-learn): Created real-time article classification using a Passive-Aggressive classifier; deployed backend to Heroku.",
+      "UML Generator (Java, Swing): Parsed compiled .class files via reflection and rendered UML diagrams; implemented zoom and pan UI controls.",
     ],
   },
 ];
@@ -181,93 +181,93 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Vivaan’s work on Static Python benchmarks was meticulous and insightful. His benchmark suite identified performance gains we didn’t initially expect.",
+    name: "Prof. Ben Greenman",
+    designation: "Professor",
+    company: "Utah PLT Lab, University of Utah",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "As a Shop Online intern, Vivaan navigated our codebase quickly, shipped new features, and improved our database queries. His dedication and code quality impressed the entire team.",
+    name: "Senior Engineer",
+    designation: "Software Engineer",
+    company: "Shop Online",
+    image: "https://randomuser.me/api/portraits/men/44.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Vivaan’s Wise Wanderer project showcased full-stack development and API integration skills. He writes clean, production-ready code and collaborates effectively.",
+    name: "Hackathon Teammate",
+    designation: "Team Lead",
+    company: "Wise Wanderer Buildathon",
+    image: "https://randomuser.me/api/portraits/women/50.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Wise Wanderer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Django-powered travel recommendation app that integrates Skyscanner and OpenWeatherMap APIs to generate personalized itineraries, dynamic maps in React, and live weather updates.",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/vivaan2006/wise-wanderer",
   },
   {
-    name: "Job IT",
+    name: "Twitch Clip Automation Tool",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Automates daily scraping of top Twitch clips via the Twitch API, processes video files with ffmpeg (batch cropping, adding on-screen titles), and formats for TikTok/Reels.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ffmpeg",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "automation",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/vivaan2006/twitch-clip-bot",
   },
   {
-    name: "Trip Guide",
+    name: "Fake News Detector",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Chrome extension (React) backed by a Flask API hosting a Passive-Aggressive scikit-learn classifier trained on news data for real-time article verification. Deployed to Heroku.",
     tags: [
       {
-        name: "nextjs",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ml",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/vivaan2006/fake-news-detector",
   },
 ];
 
