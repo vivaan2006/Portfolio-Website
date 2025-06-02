@@ -225,7 +225,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/vivaan2006/wise-wanderer",
+    sourceCodeLink: "https://github.com/vivaan2006/Wise-Wanderer",
   },
   {
     name: "Twitch Clip Automation Tool",
@@ -246,7 +246,7 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/vivaan2006/twitch-clip-bot",
+    sourceCodeLink: "https://github.com/vivaan2006/Twitch-Clip-Bot",
   },
   {
     name: "Fake News Detector",
@@ -267,7 +267,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/vivaan2006/fake-news-detector",
+    sourceCodeLink: "https://github.com/rishabram/FakeNews",
   },
 ];
 
