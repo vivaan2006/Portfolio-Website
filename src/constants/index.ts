@@ -51,20 +51,20 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Software Engineer",
     icon: web,
   },
   {
-    title: "3D Visuals Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Machine Learning & AI Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Creative Automation & Tools Builder",
     icon: creator,
+  },
+  {
+    title: "Startup-Driven Product Developer",
+    icon: mobile,
   },
 ];
 
