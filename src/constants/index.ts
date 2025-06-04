@@ -153,7 +153,7 @@ const experiences: TExperience[] = [
 {
   title: "Chief Technology Officer & Web Developer",
   companyName: "Silverline Educational Advisory Services",
-  icon: tesla,
+  icon: tesla, 
   iconBg: "#E6DEDD",
   date: "March 2023 – December 2023",
   points: [
@@ -191,17 +191,17 @@ const testimonials: TTestimonial[] = [
   {
     testimonial:
       "As a Shop Online intern, Vivaan navigated our codebase quickly, shipped new features, and improved our database queries. His dedication and code quality impressed the entire team.",
-    name: "Senior Engineer",
-    designation: "Software Engineer",
+    name: "M.D Istaik",
+    designation: "Product Owner",
     company: "Shop Online",
     image: "https://randomuser.me/api/portraits/men/44.jpg",
   },
   {
     testimonial:
       "Vivaan’s Wise Wanderer project showcased full-stack development and API integration skills. He writes clean, production-ready code and collaborates effectively.",
-    name: "Hackathon Teammate",
-    designation: "Team Lead",
-    company: "Wise Wanderer Buildathon",
+    name: "Aadil Khond",
+    designation: "Scrum Master",
+    company: "Wise Wanderer Partner",
     image: "https://randomuser.me/api/portraits/women/50.jpg",
   },
 ];
