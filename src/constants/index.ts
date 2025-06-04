@@ -150,18 +150,20 @@ const experiences: TExperience[] = [
       "Helped integrate the benchmarking suite into the lab’s continuous integration pipeline for regression tracking.",
     ],
   },
-  {
-    title: "Hackathon Winner & Participant",
-    companyName: "UN Hackathon, FBLA Nationals, Georgia Tech",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "2024 – 2025",
-    points: [
-      "Educate! (UN Hackathon): Built a school engagement platform with React and Firebase; won 'Top Web Innovation.'",
-      "FBLA Nationals: Developed a PyQt5-based AI productivity assistant; placed at the national level for innovation.",
-      "Georgia Tech Hackathons: Built rapid prototypes using Flask, React, and APIs to address student life and campus needs.",
-    ],
-  },
+{
+  title: "Chief Technology Officer & Web Developer",
+  companyName: "Silverline Educational Advisory Services",
+  icon: tesla,
+  iconBg: "#E6DEDD",
+  date: "March 2023 – December 2023",
+  points: [
+    "Led a team of 12 web developers to successfully deliver a dynamic, production-ready website using React.js and Tailwind CSS.",
+    "Oversaw the entire web development department, handling task allocation, code review, and project coordination.",
+    "Reviewed pull requests to maintain consistent coding standards and ensure overall code quality across the team.",
+    "Individually contributed to core features and UI improvements to enhance website performance and user experience.",
+    "Built responsive, modern interfaces using HTML, CSS, JavaScript, and modern frameworks like React and Angular.",
+  ],
+},
   {
     title: "Independent Projects",
     companyName: "Personal Work",
