@@ -48,7 +48,7 @@ export const config: TConfig = {
     name: "Vivaan Rajesh",
     p: [
       "Computer Science student at Georgia Tech",
-      "Building full-stack apps, 3D visuals, and automation tools",
+      "Building full-stack apps, machine learning models, and automation tools",
     ],
   },
   contact: {
@@ -73,28 +73,28 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I’m a sophomore Computer Science major at Georgia Tech who loves building production-ready software. I’m currently interning at Shop Online, enhancing e-commerce features with React, TypeScript, Node.js, and MySQL. Previously, I served as a Research Assistant under Prof. Ben Greenman at the Utah PLT Lab, where I designed and ran over 100 microbenchmarks to optimize Static Python performance, achieving a 15% runtime improvement. My academic background includes Data Structures, Discrete Mathematics, and Web Development. Outside of class, I’ve built projects like Wise Wanderer (a Django travel recommendation app), a Twitch Clip Automation Tool (Python + ffmpeg), and a Fake News Detector Chrome Extension (Flask + React + machine learning). I’m passionate about 3D visuals with Three.js and creating seamless user experiences. Let’s work together to turn ideas into polished software!`,
+      content: `I’m a Computer Science major at Georgia Tech who loves building production-ready software. I’m currently interning at Shop Online, enhancing e-commerce features with React, TypeScript, Node.js, and MySQL. Previously, I served as a Research Assistant under Prof. Ben Greenman at the Utah PLT Lab, where I designed and ran over 100 microbenchmarks to optimize Static Python performance, achieving a 15% runtime improvement. My academic background includes Data Structures, Discrete Mathematics, and Web Development. Outside of class, I’ve built projects like a Twitch Clip Automation Tool (Python + ffmpeg), and a Fake News Detector Chrome Extension (Flask + React + machine learning). Let’s work together to turn basic ideas into polished and profitable software!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
-      content: `Software Engineering Intern – Shop Online (March 2025 – Present)
-• Implemented product-filtering features in a React + TypeScript frontend and Node.js + Express backend.
-• Optimized MySQL queries to reduce page load times by 20% on high-traffic product pages.
-• Collaborated with design and QA teams to ship two major sprints on time, writing unit tests in Jest and integration tests with Cypress.
-• Refactored legacy endpoints to follow RESTful conventions and implemented caching for performance improvements.
+content: `Software Engineering Intern – Shop Online (Summer 2025)
+• Working on the core e-commerce platform using React, TypeScript, Node.js, and MySQL.
+• Shipped product filtering features and UI improvements to enhance search performance and user flow.
+• Contributed to both the frontend and backend while collaborating closely with senior engineers and designers.
+• Learned how to write clean, scalable code and deploy features in a production environment serving real users.
 
-Research Assistant – Utah PLT Lab, University of Utah (Fall 2024)
-• Worked under Prof. Ben Greenman to design and execute over 100 microbenchmarks targeting Static Python.
-• Utilized perf and gprof to analyze profiling data and identify function-call optimizations that improved benchmark runtimes by 15%.
-• Co-authored an internal report summarizing performance findings and proposed compiler tweaks to reduce overhead.
-• Integrated the benchmark suite into the CI pipeline for continuous performance regression testing.
+Research Assistant – Utah PLT Lab (Remote, 2024)
+• Worked under Prof. Ben Greenman on Static Python, a type-specialized version of CPython aimed at performance gains.
+• Designed and ran over 100 microbenchmarks to evaluate the compiler’s runtime behavior across workloads.
+• Identified optimization opportunities and summarized key findings in a performance report for the lab.
+• Helped integrate benchmark tooling into CI and participated in lab meetings and performance discussions.
 
-Hackathon Winner & Participant (2024 – 2025)
-• Educate! (UN Hackathon 2024): Developed a web app to boost school engagement using React and Firebase; won “Top Web Innovation.”
-• Spirit Quest (FBLA Nationals 2024): Built a mobile-friendly school-spirit app in React Native and Firebase; awarded “Best UI/UX.”
-• Wise Wanderer Buildathon (Georgia Tech Hackathon): Prototyped travel recommendation features in 24 hours using Django and React.
-• Participated in multiple Georgia Tech hackathons, creating Flask + React solutions focused on campus life and social good.`,
+Hackathons & Competitions (2024 – Present)
+• Built *Educate!* at the UN Hackathon — a React + Firebase web app to help schools drive student engagement. Won “Top Web Innovation.”
+• Placed at FBLA Nationals with a PyQt5-based AI productivity app focused on time-blocking and smart scheduling.
+• Regularly participate in Georgia Tech hackathons, building Flask + React tools that solve student-life and productivity problems.
+• I use hackathons to rapidly prototype ideas, explore new APIs, and learn by shipping fast.`,
     },
     feedbacks: {
       p: "What others say",
