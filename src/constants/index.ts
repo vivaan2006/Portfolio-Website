@@ -207,6 +207,48 @@ const testimonials: TTestimonial[] = [
 ];
 
 const projects: TProject[] = [
+    {
+    name: "Startup Spotter",
+    description:
+    "A React(Vite) frontend coupled with novel technologies such as Google Agent Development Kit, Google MCP, Vertex AI and MongoDB Vector Search coupled with a MongoDB Atlas backend was used to develop an application that allowed users to find the perfect startup based on their specific information. This applicatiion presented live startup statistics, and provided the user with an easy method of communication and detailed information regarding their future startup, and every step they need to take in order for it to be as successful as possible, sample information used to determine startup ideas include foot traffic, budget, popular businesses in user's city and so many more parameters!",
+    tags: [
+      {
+        name: "Google ADK",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB Vector Search",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "null",
+    sourceCodeLink: "https://github.com/vivaan2006/Startup-Spotter",
+  },
+    {
+    name: "Spirit Quest",
+    description:
+    "An application that aims to boost high school spirit activity by incentivizing participation, later on integrated within my high school. The application was initally built using Java Swing, however, it was transformed into a Python PyQT5 application powered by a Sqlite database, and many more libraries such as Numpy, openAI, Sklearn, pytorch and many more. The product featured a live announcement system, public groupchat, dynamic rewards center, a AI powered spirit assistant that helped users pick events or even prizes based on their stored interests.",
+    tags: [
+      {
+        name: "Python PyQT5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sqlite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "null",
+    sourceCodeLink: "https://github.com/vivaan2006/Spirit-Quest",
+  },
   {
     name: "Wise Wanderer",
     description:
@@ -221,7 +263,7 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "openAI",
         color: "pink-text-gradient",
       },
     ],
@@ -269,6 +311,51 @@ const projects: TProject[] = [
     ],
     image: tripguide,
     sourceCodeLink: "https://github.com/rishabram/FakeNews",
+  },
+
+    {
+    name: "Educate!",
+    description:
+    "",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "educational resources",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "null",
+    sourceCodeLink: "",
+  },
+
+
+    {
+    name: "Mental Health Hub",
+    description:
+      "",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mental health resources",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "null",
+    sourceCodeLink: "",
   },
 ];
 

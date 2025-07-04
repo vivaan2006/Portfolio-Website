@@ -73,13 +73,13 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I’m a Computer Science major at Georgia Tech who loves building production-ready software. I’m currently interning at Shop Online, enhancing e-commerce features with React, TypeScript, Node.js, and MySQL. Previously, I served as a Research Assistant under Prof. Ben Greenman at the Utah PLT Lab, where I designed and ran over 100 microbenchmarks to optimize Static Python performance, achieving a 15% runtime improvement. My academic background includes Data Structures, Discrete Mathematics, and Web Development. Outside of class, I’ve built projects like a Twitch Clip Automation Tool (Python + ffmpeg), and a Fake News Detector Chrome Extension (Flask + React + machine learning). Let’s work together to turn basic ideas into polished and profitable software!`,
+      content: `I’m a Computer Science major at Georgia Tech who loves building production-ready software. I’m currently interning at Shop Online, enhancing e-commerce features with React, TypeScript, Node.js, and MySQL. Previously, I served as a Research Assistant under Prof. Ben Greenman at the Utah PLT Lab, where I designed and ran over 100 microbenchmarks to optimize Static Python performance, achieving a 15% runtime improvement. My academic background includes Data Structures, Discrete Mathematics, and Web Development. Outside of class, I’ve built projects like a Twitch Clip Automation Tool (Python + ffmpeg), and a Fake News Detector Chrome Extension (Flask + React + machine learning) and so many more! Let’s work together to turn basic ideas into polished and profitable software!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
 content: `Software Engineering Intern – Shop Online (Summer 2025)
-• Working on the core e-commerce platform using React, TypeScript, Node.js, and MySQL.
+• Worked on the core e-commerce platform using React, TypeScript, Node.js, and MySQL.
 • Shipped product filtering features and UI improvements to enhance search performance and user flow.
 • Contributed to both the frontend and backend while collaborating closely with senior engineers and designers.
 • Learned how to write clean, scalable code and deploy features in a production environment serving real users.
