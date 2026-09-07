@@ -20,15 +20,35 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+import flask from "./tech/flask.png";
+import springboot from "./tech/springboot.png";
+import redis from "./tech/redis.png";
+import celery from "./tech/celery.png";
+import maven from "./tech/maven.png";
+import bazel from "./tech/bazel.png";
+import fastapi from "./tech/fastapi.png";
+import googlecloud from "./tech/googlecloud.png";
+import firebase from "./tech/firebase.png";
+import splunk from "./tech/splunk.png";
+import aws from "./tech/aws.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import salesforce from "./company/salesforce.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cardStartupSpotter from "./card_startupspotter.png";
+import cardAtomiq from "./card_atomiq.png";
+import cardSpiritQuest from "./card_spiritquest.png";
+import cardEducate from "./card_educate.png";
 
 export {
   logo,
@@ -52,11 +72,31 @@ export {
   tailwind,
   typescript,
   threejs,
+  java,
+  python,
+  django,
+  flask,
+  springboot,
+  redis,
+  celery,
+  maven,
+  bazel,
+  fastapi,
+  googlecloud,
+  firebase,
+  splunk,
+  aws,
+  mysql,
   meta,
   shopify,
   starbucks,
   tesla,
+  salesforce,
   carrent,
   jobit,
   tripguide,
+  cardStartupSpotter,
+  cardAtomiq,
+  cardSpiritQuest,
+  cardEducate,
 };

@@ -33,7 +33,6 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
-    feedbacks: TSection;
     works: Required<TSection>;
   };
 };
@@ -48,7 +47,7 @@ export const config: TConfig = {
     name: "Vivaan Rajesh",
     p: [
       "Computer Science student at Georgia Tech",
-      "Building full-stack apps, machine learning models, and automation tools",
+      "Building reliable backend systems, AI agent infrastructure, and full-stack products",
     ],
   },
   contact: {
@@ -73,40 +72,28 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I’m a Computer Science major at Georgia Tech who loves building production-ready software. I’m currently interning at Shop Online, enhancing e-commerce features with React, TypeScript, Node.js, and MySQL. Previously, I served as a Research Assistant under Prof. Ben Greenman at the Utah PLT Lab, where I designed and ran over 100 microbenchmarks to optimize Static Python performance, achieving a 15% runtime improvement. My academic background includes Data Structures, Discrete Mathematics, and Web Development. Outside of class, I’ve built projects like a Twitch Clip Automation Tool (Python + ffmpeg), and a Fake News Detector Chrome Extension (Flask + React + machine learning) and so many more! Let’s work together to turn basic ideas into polished and profitable software!`,
+      content: `I'm a Computer Science major at Georgia Tech (Threads: Intelligence & People) who loves building software that has to stay correct under real pressure, not just work in a demo. This past summer, I interned at Salesforce, where I built FastTrack, a verification and caching system inside Salesforce's high-traffic, multi-tenant flow engine, cutting connector verification time from weeks to under 5 minutes. Before that, I interned at Shop Online New York, architecting high-traffic checkout workflows. I've also spent time as a Research Assistant with the University of Utah / Brown University PLT lab, running 100+ microbenchmarks on a type-specialized CPython runtime and shipping a 15% speedup. Outside of internships, I build my own systems: Atomiq, a reliability layer that guarantees AI agent actions execute exactly once even under a mid-task crash, and Startup Spotter, a multi-agent RAG system that turns noisy real-world signals into ranked business recommendations. Let's work together to turn hard problems into software people can actually depend on!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
-content: `Software Engineering Intern – Shop Online (Summer 2025)
-• Worked on the core e-commerce platform using React, TypeScript, Node.js, and MySQL.
-• Shipped product filtering features and UI improvements to enhance search performance and user flow.
-• Contributed to both the frontend and backend while collaborating closely with senior engineers and designers.
-• Learned how to write clean, scalable code and deploy features in a production environment serving real users.
+content: `Software Engineering Intern – Salesforce (May 2026 – August 2026)
+• Built FastTrack inside High Scale Flow, Salesforce's high-traffic multi-tenant flow engine, cutting connector verification from a multi-week onboarding cycle to under 5 minutes.
+• Reverse-engineered and reimplemented Salesforce Core's connector-resolution logic, validated with 200+ tests at 90%+ coverage.
+• Built a tenant-scoped cache with sandboxed execution and event-driven invalidation, coordinating across 4 teams.
 
-Research Assistant – Utah PLT Lab (Remote, 2024)
-• Worked under Prof. Ben Greenman on Static Python, a type-specialized version of CPython aimed at performance gains.
-• Designed and ran over 100 microbenchmarks to evaluate the compiler’s runtime behavior across workloads.
-• Identified optimization opportunities and summarized key findings in a performance report for the lab.
-• Helped integrate benchmark tooling into CI and participated in lab meetings and performance discussions.
+Software Engineering Intern – Shop Online New York (April 2025 – July 2025)
+• Architected high-traffic checkout workflows using React Hooks, Context API, and Firebase Authentication, cutting render time by 30%+.
+• Optimized product listing and search over a Firebase backend serving a 2000+ item catalog.
 
-Hackathons & Competitions (2024 – Present)
-• Built *Educate!* at the UN Hackathon — a React + Firebase web app to help schools drive student engagement. Won “Top Web Innovation.”
-• Placed at FBLA Nationals with a PyQt5-based AI productivity app focused on time-blocking and smart scheduling.
-• Regularly participate in Georgia Tech hackathons, building Flask + React tools that solve student-life and productivity problems.
+Research Assistant – University of Utah / Brown University PLT Research (December 2022 – August 2024)
+• Designed and executed 100+ microbenchmarks on Static Python, a type-specialized subset of CPython.
+• Implemented type inference improvements in CPython internals, achieving a 15% speedup in targeted execution paths.
+
+Hackathons & Competitions
+• Built *Educate!* at the UN Hackathon — a React + Firebase web app to help schools drive student engagement. Won "Top Web Innovation."
+• FBLA Coding and Programming National Champion; GNEC Hackathon winner; USACO Silver.
 • I use hackathons to rapidly prototype ideas, explore new APIs, and learn by shipping fast.`,
-    },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
-      content: `"Vivaan’s research on Static Python benchmarks was meticulous and insightful. His benchmark suite helped us uncover unexpected performance gains."
-— Prof. Ben Greenman, Utah PLT Lab
-
-“As a Shop Online intern, Vivaan quickly navigated our codebase, shipped new features, and improved database queries. His dedication and code quality impressed the entire engineering team.”
-— Senior Software Engineer, Shop Online
-
-“Vivaan’s Wise Wanderer project demonstrated exceptional full-stack development and API integration skills. His code is clean, well-documented, and production-ready.”
-— Hackathon Teammate, Wise Wanderer Buildathon`,
     },
     works: {
       p: "My Work",

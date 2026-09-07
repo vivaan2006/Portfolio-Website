@@ -3,7 +3,6 @@ import type {
   TService,
   TTechnology,
   TExperience,
-  TTestimonial,
   TProject,
 } from "../types";
 
@@ -17,7 +16,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -32,6 +30,26 @@ import {
   jobit,
   tripguide,
   threejs,
+  java,
+  python,
+  django,
+  flask,
+  springboot,
+  redis,
+  celery,
+  maven,
+  bazel,
+  fastapi,
+  googlecloud,
+  firebase,
+  splunk,
+  aws,
+  mysql,
+  salesforce,
+  cardStartupSpotter,
+  cardAtomiq,
+  cardSpiritQuest,
+  cardEducate,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -70,28 +88,48 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Spring Boot",
+    icon: springboot,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Tailwind CSS",
@@ -102,8 +140,48 @@ const technologies: TTechnology[] = [
     icon: nodejs,
   },
   {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "Celery",
+    icon: celery,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Google Cloud",
+    icon: googlecloud,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Maven",
+    icon: maven,
+  },
+  {
+    name: "Bazel",
+    icon: bazel,
+  },
+  {
+    name: "Splunk",
+    icon: splunk,
   },
   {
     name: "Three JS",
@@ -117,37 +195,42 @@ const technologies: TTechnology[] = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences: TExperience[] = [
   {
     title: "Software Engineering Intern",
-    companyName: "Shop Online",
+    companyName: "Salesforce",
+    icon: salesforce,
+    iconBg: "#ffffff",
+    date: "May 2026 – August 2026",
+    points: [
+      "Built the FastTrack path inside High Scale Flow (HSF), Salesforce's high-traffic multi-tenant flow engine, letting developers upload a connector JAR as a Static Resource and run it natively in a sandboxed environment (Java, Spring Boot, gRPC), cutting connector verification from a multi-week onboarding cycle down to under 5 minutes.",
+      "Reverse-engineered and reimplemented Salesforce Core's connector-resolution logic off-core in Java, then validated behavioral parity against Core's production logic, backed by 200+ unit and integration tests at 90%+ coverage.",
+      "Designed a 2-call REST discovery pipeline (cheap metadata list, then selective download) and built a tenant-scoped Caffeine cache with sandboxed execution (Java Isolates) ensuring connectors from different orgs never cross-contaminate on a shared JVM at scale.",
+      "Implemented event-driven cache invalidation by wiring FastTrack into Salesforce's internal event bus, coordinating across 4 teams to keep records of uploaded connectors continuously fresh.",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
+    companyName: "Shop Online New York",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Summer 2025",
+    date: "April 2025 – July 2025",
     points: [
-      "Worked on the core e-commerce platform using React, TypeScript, Node.js, and MySQL.",
-      "Shipped product filtering features and UI enhancements that improved user flow and performance.",
-      "Debugged across the stack and collaborated with senior engineers and designers in an agile environment.",
-      "Gained production experience writing clean, scalable code and deploying to a live user base.",
+      "Architected high-traffic checkout workflows using React Hooks, Context API, and Firebase Authentication, cutting checkout page render time by over 30% under peak concurrent load.",
+      "Optimized product listing and search over a Firebase backend serving a 2000+ item catalog, improving overall search relevance and end-to-end product purchase flow.",
     ],
   },
   {
     title: "Research Assistant",
-    companyName: "Utah PLT Lab (University of Utah)",
+    companyName: "University of Utah / Brown University — PLT Research",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Fall 2024",
+    date: "December 2022 – August 2024",
     points: [
-      "Worked with Prof. Ben Greenman on Static Python, a type-specialized CPython fork focused on performance.",
-      "Created and executed over 100 custom benchmarks to evaluate runtime behavior and optimization potential.",
-      "Identified bottlenecks and summarized key findings in a report shared with the PLT community.",
-      "Helped integrate the benchmarking suite into the lab’s continuous integration pipeline for regression tracking.",
+      "Conducted performance analysis and benchmarking on Static Python, a type-specialized subset of CPython, by designing and executing 100+ microbenchmarks to uncover optimization opportunities in the runtime.",
+      "Implemented type inference improvements directly in CPython internals using Python and Pytest, achieving a 15% speedup in targeted execution paths.",
     ],
   },
 {
@@ -171,46 +254,41 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "2023 – Present",
     points: [
-      "Wise Wanderer (Django, React, PostgreSQL): Travel recommendation app integrating Skyscanner and OpenWeatherMap APIs; deployed to Heroku.",
+      "Atomiq (Python): Built an MCP proxy that derives a deterministic semantic idempotency key for every mutating agent tool call, deduplicating side effects when agents retry or restore from checkpoints. Implemented a crash-safe SQLite side-effect ledger and a compensation engine, verified exactly-once re-execution across 20 SIGKILL crash-injection tests with zero duplicate or lost side effects.",
+      "Startup Spotter (React, TypeScript, Tailwind, FastAPI): Multi-agent RAG system using Google ADK and Vertex AI to generate data-driven microbusiness recommendations, combining Vector Search over MongoDB Atlas with Google Maps/Search MCP integrations for real-time market analysis, deployed on Google Cloud Run.",
+      "Wise Wanderer (Django, React): Full-stack travel recommendation app fusing live flight, weather, and scraped travel data from multiple third-party APIs; decoupled real-time ingestion using Celery and Redis job queues for sub-second itinerary generation.",
       "Twitch Clip Automation Tool (Python, ffmpeg): Automatically downloads, processes, and formats Twitch clips for TikTok using ffmpeg and the Twitch API.",
       "Fake News Detector Chrome Extension (Flask, React, scikit-learn): Chrome extension with real-time ML article classification; backend deployed on Heroku.",
-      "UML Generator (Java, Swing): Visualized `.class` file structure by parsing reflection data and rendering interactive UML diagrams with zoom/pan support.",
     ],
-  },
-];
-
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "Vivaan’s work on Static Python benchmarks was meticulous and insightful. His benchmark suite identified performance gains we didn’t initially expect.",
-    name: "Prof. Ben Greenman",
-    designation: "Professor",
-    company: "Utah PLT Lab, University of Utah",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
-  },
-  {
-    testimonial:
-      "As a Shop Online intern, Vivaan navigated our codebase quickly, shipped new features, and improved our database queries. His dedication and code quality impressed the entire team.",
-    name: "M.D Istaik",
-    designation: "Product Owner",
-    company: "Shop Online",
-    image: "https://randomuser.me/api/portraits/men/44.jpg",
-  },
-  {
-    testimonial:
-      "Vivaan’s Wise Wanderer project showcased full-stack development and API integration skills. He writes clean, production-ready code and collaborates effectively.",
-    name: "Aadil Khond",
-    designation: "Scrum Master",
-    company: "Wise Wanderer Partner",
-    image: "https://randomuser.me/api/portraits/women/50.jpg",
   },
 ];
 
 const projects: TProject[] = [
     {
+    name: "Atomiq",
+    description:
+    "A Python MCP proxy that derives a deterministic semantic idempotency key for every mutating agent tool call, deduplicating side effects when agents retry or restore from checkpoints and eliminating double-charge/send failures for agentic frameworks. Includes a crash-safe SQLite side-effect ledger and a compensation engine with an \"atomiq undo\" CLI that replays declared inverse actions in reverse order, verified exactly-once re-execution across 20 SIGKILL crash-injection tests with zero duplicate or lost side effects.",
+    tags: [
+      {
+        name: "MCP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reliability engineering",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cardAtomiq,
+    sourceCodeLink: "https://github.com/vivaan2006/Atomiq",
+  },
+    {
     name: "Startup Spotter",
     description:
-    "A React(Vite) frontend coupled with novel technologies such as Google Agent Development Kit, Google MCP, Vertex AI and MongoDB Vector Search coupled with a MongoDB Atlas backend was used to develop an application that allowed users to find the perfect startup based on their specific information. This applicatiion presented live startup statistics, and provided the user with an easy method of communication and detailed information regarding their future startup, and every step they need to take in order for it to be as successful as possible, sample information used to determine startup ideas include foot traffic, budget, popular businesses in user's city and so many more parameters!",
+    "A multi-agent RAG system using Google ADK and Vertex AI to generate data-driven microbusiness recommendations from user-provided budget, location, and interest inputs, combining NLP-based signal extraction with Vector Search over MongoDB Atlas (U.S. Census demographic data) and Google Maps/Search MCP integrations for real-time competitor and market analysis. Full-stack architecture (React, TypeScript, Tailwind, FastAPI) deployed on Google Cloud Run.",
     tags: [
       {
         name: "Google ADK",
@@ -225,7 +303,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: "null",
+    image: cardStartupSpotter,
     sourceCodeLink: "https://github.com/vivaan2006/Startup-Spotter",
   },
     {
@@ -246,13 +324,13 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: "null",
+    image: cardSpiritQuest,
     sourceCodeLink: "https://github.com/vivaan2006/Spirit-Quest",
   },
   {
     name: "Wise Wanderer",
     description:
-      "A Django-powered travel recommendation app that integrates Skyscanner and OpenWeatherMap APIs to generate personalized itineraries, dynamic maps in React, and live weather updates.",
+      "A full-stack travel recommendation system (Django, React) that fuses live flight, weather, and scraped travel data from multiple third-party APIs into a unified AI-driven itinerary generator, reconciling inconsistent schemas and source latency. Decoupled real-time data ingestion from the request lifecycle using Celery and Redis job queues, enabling sub-second itinerary generation despite variable third-party API latency.",
     tags: [
       {
         name: "django",
@@ -263,7 +341,7 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "openAI",
+        name: "celery/redis",
         color: "pink-text-gradient",
       },
     ],
@@ -316,47 +394,24 @@ const projects: TProject[] = [
     {
     name: "Educate!",
     description:
-    "",
+    "Built at the UN Hackathon — a React + Firebase web app to help schools drive student engagement, winner of \"Top Web Innovation.\"",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "NextJS",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "educational resources",
+        name: "hackathon winner",
         color: "pink-text-gradient",
       },
     ],
-    image: "null",
-    sourceCodeLink: "",
-  },
-
-
-    {
-    name: "Mental Health Hub",
-    description:
-      "",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NextJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mental health resources",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "null",
+    image: cardEducate,
     sourceCodeLink: "",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
